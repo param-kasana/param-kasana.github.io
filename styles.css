@@ -1,0 +1,96 @@
+body {
+  font-family: 'Arial', monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+nav {
+  background-color: #1a1a1a;
+  padding: 1em 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+#intro {
+  text-align: center;
+  padding: 2em 20px; /* Added left and right padding */
+}
+
+#about {
+  text-align: justify;
+  padding: 2em 20px;
+}
+
+#about p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#about .highlight {
+  color: #badce7; /* Highlight color */
+  font-weight: bold;
+}
+
+h1,
+h2,
+p,
+.project {
+  text-align: center justify;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#experience,
+#education,
+#about,
+#projects{
+  text-align: center;
+  padding: 2em 200px; /* Added left and right padding */
+}
+
+#experience h2,
+#education h2,
+#about h2,
+#projects h2{
+  color: #fff;
+}
+
+#experience p,
+#education p,
+#about p,
+#projects p{
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
